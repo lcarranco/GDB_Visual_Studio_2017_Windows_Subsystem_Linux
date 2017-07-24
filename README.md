@@ -18,3 +18,17 @@ How to debug in Windows Subsystem Linux (WSL) using GDB debugger
 	3. `sudo apt-get install -y build-essential`
 	4. `sudo apt-get install -y gdbserver`
 	5. `sudo apt=get install -y openssh-server`
+2. Open sshd_config using vi, emacs, or nano. I prefer nano as it is much easier to use for beginners.
+	1. `nano /etc/ssh/sshd_config`
+	2. set PasswordAuhentication to yes
+3. Generate SSH keys
+	1. `sudo ssh-keygen -A`
+4. Start openssh server
+	1. `sudo service ssh start`
+5. Create a console application in Visual Studio
+6. Target x64
+7. Add SSh connections
+	1. Host Name: localhost
+	2. Port: 22
+	3. User Name: "Enter your bash user name"
+	4. Password: "Enter password associated with your bash user name"
