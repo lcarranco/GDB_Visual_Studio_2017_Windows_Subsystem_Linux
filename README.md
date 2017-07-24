@@ -32,3 +32,6 @@ How to debug in Windows Subsystem Linux (WSL) using GDB debugger
 	2. Port: 22
 	3. User Name: "Enter your bash user name"
 	4. Password: "Enter password associated with your bash user name"
+8. Ensure debugging mode is set to gdb
+	1. Go to Project -> ConsoleApplication1 Properties -> Configuration Properties -> Debugging
+	2. Set Debugging Mode to gdb
