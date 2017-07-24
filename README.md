@@ -14,4 +14,7 @@ How to debug in Windows Subsystem Linux (WSL) using GDB debugger
 
 1. Install metapackage build-essential, gdb server, and openssh server
 	1. Open WSL
-	2. sudo apt-get update
+	2. `sudo apt-get update`
+	3. `sudo apt-get install -y build-essential`
+	4. `sudo apt-get install -y gdbserver`
+	5. `sudo apt=get install -y openssh-server`
